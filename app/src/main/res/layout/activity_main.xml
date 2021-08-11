@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"/>
+    <Button
+        android:id="@+id/btn_buyfragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Doge"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="80dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"/>
+    <Button
+        android:id="@+id/btn_sellfragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sell doge"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="230dp"/>
+
+</RelativeLayout>
